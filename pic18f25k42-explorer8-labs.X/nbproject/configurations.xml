@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configurationDescriptor version="65">
+  <logicalFolder displayName="root" name="root" projectFiles="true">
+    <logicalFolder displayName="Header Files" name="HeaderFiles" projectFiles="true">
+      <logicalFolder displayName="MCC Generated Files" name="MCC Generated Files" projectFiles="true">
+        <itemPath>mcc_generated_files/interrupt_manager.h</itemPath>
+        <itemPath>mcc_generated_files/pwm2.h</itemPath>
+        <itemPath>mcc_generated_files/tmr2.h</itemPath>
+        <itemPath>mcc_generated_files/mcc.h</itemPath>
+        <itemPath>mcc_generated_files/spi1.h</itemPath>
+        <itemPath>mcc_generated_files/tmr0.h</itemPath>
+        <itemPath>mcc_generated_files/pin_manager.h</itemPath>
+        <itemPath>mcc_generated_files/memory.h</itemPath>
+        <itemPath>mcc_generated_files/adcc.h</itemPath>
+        <itemPath>mcc_generated_files/tmr1.h</itemPath>
+        <itemPath>mcc_generated_files/device_config.h</itemPath>
+      </logicalFolder>
+      <itemPath>labs.h</itemPath>
+      <itemPath>lcd.h</itemPath>
+    </logicalFolder>
+    <logicalFolder displayName="Source Files" name="SourceFiles" projectFiles="true">
+      <logicalFolder displayName="Labs" name="Labs" projectFiles="true">
+        <logicalFolder displayName="Lab01_HelloWorld" name="Lab01_HelloWorld" projectFiles="true">
+          <itemPath>Labs/Lab01_HelloWorld/HelloWorld.c</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="Lab02_Blink" name="Lab02_Blink" projectFiles="true">
+          <itemPath>Labs/Lab02_Blink/Blink.c</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="Lab03_Rotate" name="Lab03_Rotate" projectFiles="true">
+          <itemPath>Labs/Lab03_Rotate/Rotate.c</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="Lab04_AnalogToDigitalConverter" name="Lab04_AnalogToDigitalConverter" projectFiles="true">
+          <itemPath>Labs/Lab04_AnalogToDigitalConverter/ADC.c</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="Lab05_VariableSpeedRotate" name="Lab05_VariableSpeedRotate" projectFiles="true">
+          <itemPath>Labs/Lab05_VariableSpeedRotate/VSR.c</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="Lab06_Debounce" name="Lab06_Debounce" projectFiles="true">
+          <itemPath>Labs/Lab06_Debounce/Debounce.c</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="Lab07_PulseWidthModulation" name="Lab07_PulseWidthModulation" projectFiles="true">
+          <itemPath>Labs/Lab07_PulseWidthModulation/PWM.c</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="Lab08_Timers" name="Lab08_Timers" projectFiles="true">
+          <itemPath>Labs/Lab08_Timers/Timer1.c</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="Lab09_Interrupts" name="Lab09_Interrupts" projectFiles="true">
+          <itemPath>Labs/Lab09_Interrupts/Interrupt.c</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="Lab10_SleepWakeUp" name="Lab10_SleepWakeUp" projectFiles="true">
+          <itemPath>Labs/Lab10_SleepWakeUp/SleepWakeUp.c</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="Lab11_EEPROM" name="Lab11_EEPROM" projectFiles="true">
+          <itemPath>Labs/Lab11_EEPROM/EEPROM.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder displayName="MCC Generated Files" name="MCC Generated Files" projectFiles="true">
+        <itemPath>mcc_generated_files/interrupt_manager.c</itemPath>
+        <itemPath>mcc_generated_files/pwm2.c</itemPath>
+        <itemPath>mcc_generated_files/tmr2.c</itemPath>
+        <itemPath>mcc_generated_files/mcc.c</itemPath>
+        <itemPath>mcc_generated_files/spi1.c</itemPath>
+        <itemPath>mcc_generated_files/tmr0.c</itemPath>
+        <itemPath>mcc_generated_files/pin_manager.c</itemPath>
+        <itemPath>mcc_generated_files/memory.c</itemPath>
+        <itemPath>mcc_generated_files/adcc.c</itemPath>
+        <itemPath>mcc_generated_files/tmr1.c</itemPath>
+        <itemPath>mcc_generated_files/device_config.c</itemPath>
+      </logicalFolder>
+      <itemPath>main.c</itemPath>
+      <itemPath>lcd.c</itemPath>
+    </logicalFolder>
+    <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="false">
+      <itemPath>Makefile</itemPath>
+      <itemPath>device_config.mc3</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="free" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC18F25K42</targetDevice>
+        <targetHeader/>
+        <targetPluginBoard/>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC8</languageToolchain>
+        <languageToolchainVersion>2.10</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="PIC18F-K_DFP" vendor="Microchip" version="1.0.48"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile/>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep/>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep/>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <HI-TECH-COMP>
+        <property key="operation-mode" value="free"/>
+        <property key="optimization-debug" value="false"/>
+        <property key="optimization-speed" value="false"/>
+        <property key="verbose" value="false"/>
+        <property key="warning-level" value="-3"/>
+      </HI-TECH-COMP>
+      <HI-TECH-LINK>
+        <property key="data-model-size-of-double-float" value="24 bit"/>
+      </HI-TECH-LINK>
+      <PICkit3PlatformTool>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="5.0"/>
+      </PICkit3PlatformTool>
+      <PKOBSKDEPlatformTool>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.uselvpprogramming" value="true"/>
+      </PKOBSKDEPlatformTool>
+      <XC8-CO>
+        <property key="coverage-enable" value=""/>
+      </XC8-CO>
+      <XC8-config-global>
+        <property key="advanced-elf" value="true"/>
+        <property key="output-file-format" value="-mcof,+elf"/>
+        <property key="stack-size-high" value="auto"/>
+        <property key="stack-size-low" value="auto"/>
+        <property key="stack-size-main" value="auto"/>
+        <property key="stack-type" value="compiled"/>
+      </XC8-config-global>
+    </conf>
+    <conf name="pro" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC18F25K42</targetDevice>
+        <targetHeader/>
+        <targetPluginBoard/>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC8</languageToolchain>
+        <languageToolchainVersion>2.10</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="PIC18F-K_DFP" vendor="Microchip" version="1.0.48"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile/>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep/>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep/>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <HI-TECH-COMP>
+        <property key="operation-mode" value="pro"/>
+        <property key="optimization-debug" value="false"/>
+        <property key="optimization-speed" value="false"/>
+        <property key="verbose" value="false"/>
+        <property key="warning-level" value="-3"/>
+      </HI-TECH-COMP>
+      <HI-TECH-LINK>
+        <property key="data-model-size-of-double-float" value="24 bit"/>
+      </HI-TECH-LINK>
+      <PICkit3PlatformTool>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="5.0"/>
+      </PICkit3PlatformTool>
+      <PKOBSKDEPlatformTool>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.uselvpprogramming" value="true"/>
+      </PKOBSKDEPlatformTool>
+      <XC8-config-global>
+        <property key="advanced-elf" value="true"/>
+        <property key="output-file-format" value="-mcof,+elf"/>
+        <property key="stack-size-high" value="auto"/>
+        <property key="stack-size-low" value="auto"/>
+        <property key="stack-size-main" value="auto"/>
+        <property key="stack-type" value="compiled"/>
+      </XC8-config-global>
+    </conf>
+  </confs>
+</configurationDescriptor>
